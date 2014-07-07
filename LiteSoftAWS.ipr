@@ -181,5 +181,43 @@
     <mapping directory="$PROJECT_DIR$/../LiteSoftCommonFoundation" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../LiteSoftServerUtils" vcs="Git" />
   </component>
+  <component name="libraryTable">
+    <library name="3rdParty">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../LiteSoftServerUtils/libs/http/httpclient-4.2.6.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../LiteSoftServerUtils/libs/http/httpcore-4.2.5.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../LiteSoftServerUtils/libs/http/httpmime-4.1.1.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../LiteSoftServerUtils/libs/commons/commons-codec-1.3.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../LiteSoftServerUtils/libs/commons/commons-collections-3.2.1.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../LiteSoftServerUtils/libs/commons/commons-logging-1.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="AWSsdk">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/AWS_SDK/aspectjrt-1.6.0.jar!/" />
+        <root url="jar://$PROJECT_DIR$/libs/AWS_SDK/aspectjweaver.jar!/" />
+        <root url="jar://$PROJECT_DIR$/libs/AWS_SDK/aws-java-sdk-1.6.5.jar!/" />
+        <root url="jar://$PROJECT_DIR$/libs/AWS_SDK/aws-java-sdk-flow-build-tools-1.6.5.jar!/" />
+        <root url="jar://$PROJECT_DIR$/libs/AWS_SDK/freemarker-2.3.18.jar!/" />
+        <root url="jar://$PROJECT_DIR$/libs/AWS_SDK/jackson-annotations-2.1.1.jar!/" />
+        <root url="jar://$PROJECT_DIR$/libs/AWS_SDK/jackson-core-2.1.1.jar!/" />
+        <root url="jar://$PROJECT_DIR$/libs/AWS_SDK/jackson-databind-2.1.1.jar!/" />
+        <root url="jar://$PROJECT_DIR$/libs/AWS_SDK/mail-1.4.3.jar!/" />
+        <root url="jar://$PROJECT_DIR$/libs/AWS_SDK/spring-beans-3.0.7.jar!/" />
+        <root url="jar://$PROJECT_DIR$/libs/AWS_SDK/spring-context-3.0.7.jar!/" />
+        <root url="jar://$PROJECT_DIR$/libs/AWS_SDK/spring-core-3.0.7.jar!/" />
+        <root url="jar://$PROJECT_DIR$/libs/AWS_SDK/stax-1.2.0.jar!/" />
+        <root url="jar://$PROJECT_DIR$/libs/AWS_SDK/stax-api-1.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/libs/AWS_SDK/aws-java-sdk-1.6.5-javadoc.zip!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/libs/AWS_SDK/aws-java-sdk-1.6.5-sources.zip!/" />
+      </SOURCES>
+    </library>
+  </component>
 </project>
 
