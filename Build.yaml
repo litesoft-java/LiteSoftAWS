@@ -1,0 +1,12 @@
+jar: LiteSoftAWS
+
+dependencies:
+- ../LiteSoftServerUtils
+
+classpath:
+- libs/**.jar
+
+resources: 
+- $source$
+- LICENSE
+
