@@ -168,8 +168,9 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/LiteSoftAWS.iml" filepath="$PROJECT_DIR$/LiteSoftAWS.iml" />
       <module fileurl="file://$PROJECT_DIR$/../LiteSoftCommonFoundation/LiteSoftCommonFoundation.iml" filepath="$PROJECT_DIR$/../LiteSoftCommonFoundation/LiteSoftCommonFoundation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LiteSoftServerUtils.iml" filepath="$PROJECT_DIR$/../LiteSoftServerUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../LiteSoftServerUtils/LiteSoftServerUtils.iml" filepath="$PROJECT_DIR$/../LiteSoftServerUtils/LiteSoftServerUtils.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
@@ -178,6 +179,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../LiteSoftCommonFoundation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../LiteSoftServerUtils" vcs="Git" />
   </component>
 </project>
 

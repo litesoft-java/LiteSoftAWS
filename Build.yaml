@@ -4,7 +4,8 @@ dependencies:
 - ../LiteSoftServerUtils
 
 classpath:
-- libs/**.jar
+- libs|**.jar
+- ../LiteSoftServerUtils/libs|**.jar
 
 resources: 
 - $source$

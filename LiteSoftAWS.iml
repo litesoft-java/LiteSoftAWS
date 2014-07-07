@@ -18,6 +18,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="LiteSoftServerUtils" />
     <orderEntry type="module" module-name="LiteSoftCommonFoundation" />
     <orderEntry type="module-library">
       <library>
@@ -30,6 +31,8 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="AWSsdk" level="project" />
+    <orderEntry type="library" name="3rdParty" level="project" />
   </component>
 </module>
 
