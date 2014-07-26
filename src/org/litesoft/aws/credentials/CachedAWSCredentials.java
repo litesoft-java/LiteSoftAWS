@@ -1,7 +1,9 @@
 package org.litesoft.aws.credentials;
 
 import org.litesoft.commonfoundation.base.*;
+import org.litesoft.commonfoundation.console.*;
 import org.litesoft.commonfoundation.exceptions.*;
+import org.litesoft.commonfoundation.indent.*;
 
 import com.amazonaws.auth.*;
 import java8.util.function.*;
@@ -45,13 +47,13 @@ public class CachedAWSCredentials implements Supplier<AWSCredentials> {
     }
 
     public void report() {
-        report( System.out );
+        report( new ConsoleIndentableWriter( "", ConsoleSOUT.INSTANCE ) );
     }
 
-    public void report( PrintStream pStream ) {
-        if ( (pStream != null) && !mReported ) {
+    public void report( IndentableWriter pWriter ) {
+        if ( (pWriter != null) && !mReported ) {
             mReported = true;
-            pStream.println( "Using: " + mCredentialsPropertiesFileName );
+            pWriter.printLn( "Using: " + mCredentialsPropertiesFileName );
         }
     }
 
