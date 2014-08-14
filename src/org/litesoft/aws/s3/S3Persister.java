@@ -6,6 +6,7 @@ import org.litesoft.commonfoundation.exceptions.*;
 import org.litesoft.commonfoundation.typeutils.*;
 import org.litesoft.server.util.*;
 
+import com.amazonaws.*;
 import com.amazonaws.services.s3.internal.*;
 import com.amazonaws.services.s3.model.*;
 import com.amazonaws.util.*;
@@ -25,6 +26,24 @@ public class S3Persister extends S3ClientSupport {
     public S3Persister( CachedAWSCredentials pCredentials, Bucket pBucket )
             throws IOException {
         this( pCredentials, pBucket, null );
+    }
+
+    @Override
+    public boolean fileExists( String pPath )
+            throws FileSystemException {
+        try {
+            mClient.getObjectMetadata( getBucketName(), pPath );
+            return true;
+        }
+        catch ( AmazonServiceException e ) {
+            if ( e.getStatusCode() == 404 ) {
+                return false;
+            }
+            throw convert( e, pPath );
+        }
+        catch ( Exception e ) {
+            throw convert( e, pPath );
+        }
     }
 
     @Override
