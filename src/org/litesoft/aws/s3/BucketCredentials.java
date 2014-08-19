@@ -20,7 +20,7 @@ public class BucketCredentials {
     }
 
     private IndentableWriter getWriter() {
-        return (mWriter != null) ? mWriter : new ConsoleIndentableWriter( "    ", ConsoleSOUT.INSTANCE );
+        return (mWriter != null) ? mWriter : new ConsoleIndentableWriter( ConsoleSOUT.INSTANCE );
     }
 
     public static BucketCredentials with( String pBucketName ) {
