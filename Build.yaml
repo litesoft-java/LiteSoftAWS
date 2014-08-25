@@ -1,11 +1,11 @@
 jar: LiteSoftAWS
 
-dependencies:
+compiledependencies:
 - ../LiteSoftServerUtils
+- ../LiteSoftCommonFoundation
 
 classpath:
 - libs|**.jar
-- ../LiteSoftServerUtils/libs|**.jar
 
 resources: 
 - $source$
